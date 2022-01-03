@@ -28,7 +28,7 @@ function generate() {
 
         if (level == 1) {
             body.push(new docx.Paragraph({ text: text, heading: docx.HeadingLevel.TITLE }));
-        } else if (level > 1 && level < 6) {
+        } else if (level > 1 && level <= 6) {
             body.push(new docx.Paragraph({ text: text, heading: eval("docx.HeadingLevel.HEADING_" + String(level - 1)) }));
         } else {
             body.push(new docx.Paragraph({ text: text }));
