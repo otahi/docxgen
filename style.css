@@ -1,0 +1,26 @@
+#title {
+    background-image: url("icon.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.5em 1.5em;
+    padding-left: 2.5em;
+}
+
+#txt {
+    font-family: "Yu Gothic UI", "Meiryo UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+    font-size: large;
+}
+
+#generate {
+    font-family: "Yu Gothic UI", "Meiryo UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+    font-size: large;
+    content: "";
+    display: inline-block;
+    width: 10em;
+    height: 3em;
+    background-size: contain;
+    vertical-align: middle;
+    background-color: #aaffff;
+    box-shadow: #444444 0.2em 0.2em 0.3em;
+}
