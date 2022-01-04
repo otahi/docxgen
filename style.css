@@ -12,7 +12,7 @@
     font-size: large;
 }
 
-#generate {
+#generate_docx {
     font-family: "Yu Gothic UI", "Meiryo UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
     font-size: large;
     content: "";
@@ -22,5 +22,18 @@
     background-size: contain;
     vertical-align: middle;
     background-color: #aaffff;
+    box-shadow: #444444 0.2em 0.2em 0.3em;
+}
+
+#generate_pptx {
+    font-family: "Yu Gothic UI", "Meiryo UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", sans-serif;
+    font-size: large;
+    content: "";
+    display: inline-block;
+    width: 10em;
+    height: 3em;
+    background-size: contain;
+    vertical-align: middle;
+    background-color: #ff7777;
     box-shadow: #444444 0.2em 0.2em 0.3em;
 }
